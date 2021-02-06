@@ -17,4 +17,4 @@ jobs:
     steps:
     - run: |
         echo "Hello ${{ github.event.inputs.username }}!" 
-        echo "There are many reasons one might want to run a workflow manually, your reason "${{ github.event.inputs.reason }}" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason }}\" is just as good as any !"
