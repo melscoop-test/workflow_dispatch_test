@@ -16,5 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: |
-        echo "Hello ${{ github.event.inputs.username }}! \n"
-        echo "There are many reasons one might want to run a workflow manually, your reason ${{ github.event.inputs.reason }} is jsut as good as any !"
+        echo "Hello ${{ github.event.inputs.username }}!" \n
+        echo "There are many reasons one might want to run a workflow manually, your reason _${{ github.event.inputs.reason }}_ is just as good as any !"
