@@ -1,10 +1,20 @@
+name: Manually triggered workflow 
 on: 
   workflow_dispatch:
     inputs:
       username:
         description: 'Your GitHub username'
         required: true
+        default: 'Mona the Octocat'
       reason:
         description: 'Why are you running this workflow manually?'
         required: true
         default: 'I am running tests before implementing an automated workflow'
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Hello ${{ github.event.inputs.username }}! \n"
+        echo "There are many reasons one might want to run a workflow manually, your reason ${{ github.event.inputs.reason }} is jsut as good as any !"
