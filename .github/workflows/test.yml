@@ -42,14 +42,7 @@ on:
         description: 'Why are you running this workflow manually?'
         required: true
         default: 'I am running tests before implementing an automated workflow'
-      reason9:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason10:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
+
 
 
 jobs:
@@ -67,5 +60,3 @@ jobs:
         echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason6 }}\" is just as good as any !"
         echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason7 }}\" is just as good as any !"
         echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason8 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason9 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason10 }}\" is just as good as any !"
