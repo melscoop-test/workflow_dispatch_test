@@ -18,3 +18,13 @@ jobs:
     - run: |
         echo "Hello ${{ github.event.inputs.username }}!" 
         echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason1 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason2 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason3 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason4 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason5 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason6 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason7 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason8 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason9 }}\" is just as good as any !"
+        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason10 }}\" is just as good as any !"
