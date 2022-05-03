@@ -10,6 +10,47 @@ on:
         description: 'Why are you running this workflow manually?'
         required: true
         default: 'I am running tests before implementing an automated workflow'
+      reason1:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason2:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason3:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason4:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason5:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason6:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason7:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason8:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason9:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+      reason10:
+        description: 'Why are you running this workflow manually?'
+        required: true
+        default: 'I am running tests before implementing an automated workflow'
+
 
 jobs:
   say_hello:
