@@ -14,36 +14,6 @@ on:
         description: 'Why are you running this workflow manually?'
         required: true
         default: 'I am running tests before implementing an automated workflow'
-      reason2:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason3:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason4:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason5:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason6:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason7:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-      reason8:
-        description: 'Why are you running this workflow manually?'
-        required: true
-        default: 'I am running tests before implementing an automated workflow'
-
-
 
 jobs:
   say_hello:
@@ -53,10 +23,3 @@ jobs:
         echo "Hello ${{ github.event.inputs.username }}!" 
         echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason }}\" is just as good as any !"
         echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason1 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason2 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason3 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason4 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason5 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason6 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason7 }}\" is just as good as any !"
-        echo "There are many reasons one might want to run a workflow manually, your reason \"${{ github.event.inputs.reason8 }}\" is just as good as any !"
